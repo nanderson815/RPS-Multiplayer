@@ -1,6 +1,8 @@
-$(document).ready(function (){
-    
+$(document).ready(function () {
 
+$('h1').click(function (){
+    console.log("This works!")
+});
 
 
 
