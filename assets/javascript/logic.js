@@ -10,3 +10,10 @@ var config = {
     messagingSenderId: "318063060937"
 };
 firebase.initializeApp(config);
+
+var database = firebase.database();
+
+
+$("h1").on("click", function(){
+    console.log("Hello Baby");
+});
